@@ -68,7 +68,9 @@ count = 0
 while count < 3:
     print("Lặp lần", count)
     count += 1
+    
 **Kết quả:**
+
 Lặp lần 0
 Lặp lần 1
 Lặp lần 2
@@ -78,7 +80,9 @@ def tong(a, b):
     return a + b
 
 print("Tổng 3 + 4 =", tong(3, 4))
+
 **Kết quả:**
+
 Tổng 3 + 4 = 7
 ### 2.8. Danh sách (List)
 fruits = ["Táo", "Cam", "Xoài"]
@@ -87,13 +91,16 @@ fruits.append("Chuối")  # Thêm phần tử
 print(fruits)
 
 **Kết quả:**
+
 Táo
 ['Táo', 'Cam', 'Xoài', 'Chuối']
 
 ### 2.9. Vòng lặp với danh sách
 for fruit in ["Táo", "Cam", "Xoài"]:
     print("Tôi thích", fruit)
+
 **Kết quả:**
+
 Tôi thích Táo
 Tôi thích Cam
 Tôi thích Xoài
@@ -102,7 +109,9 @@ Tôi thích Xoài
 import math
 
 print("Căn bậc hai của 16 là:", math.sqrt(16))
+
 **Kết quả:**
+
 Căn bậc hai của 16 là: 4.0
 
 ## 3. Kết luận
