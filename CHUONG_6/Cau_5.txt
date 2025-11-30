@@ -1,0 +1,66 @@
+(a) lst
+
+Xuất toàn bộ list
+Kết quả: [20, 1, -34, 40, -8, 60, 1, 3]
+
+(b) lst[0:3]
+
+Lấy phần tử từ chỉ số 0 đến 2 (chỉ số cuối 3 không bao gồm)
+Kết quả: [20, 1, -34]
+
+(c) lst[4:8]
+
+Lấy phần tử chỉ số 4 → 7
+Kết quả: [-8, 60, 1, 3]
+
+(d) lst[4:33]
+
+Chỉ số vượt quá độ dài list → Python lấy đến hết list
+Kết quả: [-8, 60, 1, 3]
+
+(e) lst[-5:-3]
+
+lst[-5] = lst[3] = 40, lst[-3] = lst[5] = 60 (chỉ lấy đến -3 không bao gồm)
+Kết quả: [40, -8]
+
+(f) lst[-22:3]
+
+Chỉ số bắt đầu âm vượt quá độ dài list → Python lấy từ đầu
+
+lst[0:3] = [20, 1, -34]
+Kết quả: [20, 1, -34]
+
+(g) lst[4:]
+
+Lấy từ chỉ số 4 đến hết list
+Kết quả: [-8, 60, 1, 3]
+
+(h) lst[:]
+
+Lấy toàn bộ list (copy)
+Kết quả: [20, 1, -34, 40, -8, 60, 1, 3]
+
+(i) lst[:4]
+
+Lấy từ đầu đến chỉ số 3
+Kết quả: [20, 1, -34, 40]
+
+(j) lst[1:5]
+
+Lấy chỉ số 1 → 4
+Kết quả: [1, -34, 40, -8]
+
+(k) -34 in lst
+
+Kiểm tra -34 có trong list không → True
+Kết quả: True
+
+(l) -34 not in lst
+
+Kiểm tra -34 không có trong list → False
+Kết quả: False
+
+(m) len(lst)
+
+Độ dài list = 8
+Kết quả: 8

@@ -1,0 +1,75 @@
+✅ 1. Hàm kiểm tra chuỗi
+
+str.isalpha() – Kiểm tra chuỗi chỉ gồm chữ cái.
+
+str.isdigit() – Kiểm tra chuỗi chỉ gồm chữ số.
+
+str.isalnum() – Kiểm tra chuỗi gồm chữ cái và số.
+
+str.islower() – Kiểm tra toàn bộ ký tự là chữ thường.
+
+str.isupper() – Kiểm tra toàn bộ ký tự là chữ hoa.
+
+str.isspace() – Kiểm tra chuỗi chỉ gồm khoảng trắng.
+
+✅ 2. Hàm chuyển đổi chữ hoa – chữ thường
+
+str.upper() – Chuyển thành chữ hoa.
+
+str.lower() – Chuyển thành chữ thường.
+
+str.capitalize() – Viết hoa chữ cái đầu tiên.
+
+str.title() – Viết hoa chữ cái đầu mỗi từ.
+
+str.swapcase() – Đảo chữ hoa ↔ chữ thường.
+
+✅ 3. Hàm tìm kiếm & đếm
+
+str.find(sub) – Tìm vị trí chuỗi con, trả về −1 nếu không có.
+
+str.rfind(sub) – Tìm từ phải sang trái.
+
+str.index(sub) – Giống find() nhưng báo lỗi nếu không thấy.
+
+str.count(sub) – Đếm số lần xuất hiện của chuỗi con.
+
+str.startswith(prefix) – Kiểm tra chuỗi bắt đầu bằng ký tự/chuỗi con.
+
+str.endswith(suffix) – Kiểm tra chuỗi kết thúc bằng ký tự/chuỗi con.
+
+✅ 4. Hàm cắt – nối chuỗi
+
+str.split(sep) – Tách chuỗi thành list.
+
+str.rsplit(sep) – Tách từ phải sang trái.
+
+sep.join(list) – Nối danh sách thành chuỗi.
+
+✅ 5. Hàm thay thế
+
+str.replace(old, new) – Thay chuỗi con này bằng chuỗi khác.
+
+✅ 6. Hàm loại bỏ khoảng trắng
+
+str.strip() – Xóa khoảng trắng hai đầu.
+
+str.lstrip() – Xóa bên trái.
+
+str.rstrip() – Xóa bên phải.
+
+✅ 7. Hàm định dạng chuỗi
+
+str.format() – Định dạng chuỗi.
+
+f"...{var}..." – F-string nhanh và tiện.
+
+str.zfill(n) – Thêm số 0 vào đầu để đủ độ dài n.
+
+✅ 8. Hàm/Toán tử khác
+
+len(s) – Lấy độ dài chuỗi.
+
+"sub" in s – Kiểm tra chuỗi con có tồn tại không.
+
+s * n – Lặp chuỗi n lần.
